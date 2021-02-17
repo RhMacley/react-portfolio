@@ -40,5 +40,8 @@
     "eslint": "^6.6.0",
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.1.2"
   }
 }

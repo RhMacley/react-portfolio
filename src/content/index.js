@@ -1,6 +1,6 @@
 export default {
   nav: {
-    logo: 'Portfólio | Rhanon Macley',
+    logo: 'Portfólio',
     links: [
       { text: 'Skills', to: 'mystack' },
       { text: 'Contato', to: 'mycontact' },
