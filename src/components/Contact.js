@@ -36,16 +36,32 @@ export default function Contact() {
           </p>
           <div className="transform transition duration-3000 flex mt-10 justify-evenly items-center">
             <a href="https://github.com/RhMacley" target="_blank">
-              <img src="/assets/github.png" alt="GitHub" width="60px" />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/github.png"}
+                alt="GitHub"
+                width="60px"
+              />
             </a>
             <a href="https://www.linkedin.com/in/rhanonmacley/" target="_blank">
-              <img src="/assets/linkedin.png" alt="LinkedIn" width="45px" />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/linkedin.png"}
+                alt="LinkedIn"
+                width="45px"
+              />
             </a>
             <a href="mailto:rh.macley@gmail.com" target="_blank">
-              <img src="/assets/gmail.png" alt="Email" width="60px" />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/gmail.png"}
+                alt="Email"
+                width="60px"
+              />
             </a>
             <a href="/assets/Rhanon's Resume 2022.pdf" target="_blank">
-              <img src="/assets/cv.png" alt="Resume" width="70px" />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/cv.png"}
+                alt="Resume"
+                width="70px"
+              />
             </a>
           </div>
         </div>
