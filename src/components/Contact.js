@@ -44,15 +44,8 @@ export default function Contact() {
             <a href="mailto:rh.macley@gmail.com" target="_blank">
               <img src="/assets/gmail.png" alt="Email" width="60px" />
             </a>
-            <a
-              href="../../public/assets/Rhanon's Resume 2022.pdf"
-              target="_blank"
-            >
-              <img
-                src="../../public/assets/Rhanon's Resume 2022.pdf"
-                alt="Resume"
-                width="70px"
-              />
+            <a href="/assets/Rhanon's Resume 2022.pdf" target="_blank">
+              <img src="/assets/cv.png" alt="Resume" width="70px" />
             </a>
           </div>
         </div>
